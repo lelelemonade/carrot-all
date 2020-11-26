@@ -6,13 +6,16 @@
         <groupId>org.carrot</groupId>
         <artifactId>carrot-all</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     </parent>
     <artifactId>carrot-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>carrot-api</name>
     <packaging>pom</packaging>
     <description>Public API For All Carrot Project</description>
+
+    <properties>
+    </properties>
 
     <dependencies>
     </dependencies>
@@ -23,6 +26,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
         </plugins>
     </build>
 
